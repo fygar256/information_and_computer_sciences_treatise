@@ -1,4 +1,4 @@
-Here is an area for information and computer science treatise.
+Here are the information and computer science treatises.
 
 info.py: trial to extract any information from pi and to extract the phone number who you think to love from perfect random number.
 
