@@ -4,7 +4,7 @@ info.py: trial to extract any information from pi and to extract the phone numbe
 
 infinitesimal: simulation and consideration of infinitesimal on computer science.
 
-st.pertersburg_paradon: simulation and consideration of st.petersburg paradon.
+st.pertersburg_paradox: simulation and consideration of st.petersburg paradox.
 
 completion for classical computing and solution of incompleteness theorem: General Code Converter and solution of incompleteness theorem.
 
