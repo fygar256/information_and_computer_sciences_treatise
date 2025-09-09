@@ -1,6 +1,6 @@
 Here are the information and computer science treatises.
 
-info.py: trial to extract any information from pi and to extract the phone number who you think to love from perfect random number.
+info_pi: trial to extract any information from pi and to extract the phone number who you think to love from perfect random number.
 
 infinitesimal: simulation and consideration of infinitesimal on computer science.
 
