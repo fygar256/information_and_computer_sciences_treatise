@@ -1,0 +1,44 @@
+# completion-for_classical_computing_and_solution_to_incompleteness_theorem
+
+
+The Completion of Classical Computer Processing
+
+Since all operations in classical computers ultimately boil down to converting 1s and 0s, cutting-edge research appears to be developing a General Code Converter. The function of classical computers is merely converting 1s and 0s. From this perspective, the General Code Converter represents the ultimate code conversion for information expressible solely through “1s and 0s,” transcending all codes and instructions. Conversion to other architectures or languages is, in a sense, a form of “translation,” fundamentally organizing data flow and operations. How this converter handles conversion rules likely involves adaptation files (or sets thereof) for each specific case. This approach seems to create a flexible system capable of adding new conversion rules as needed. While individual files offer significant convenience for code reuse and extension, they also seem capable of handling an enormous number of conversion patterns. On the other hand, since the number of matching files (sets) becomes vast, individual cases must be abstracted. Through abstraction, individual cases are transformed into common patterns, enabling the common elements to be treated as a single rule. This abstraction is akin to extracting commonalities in data structures to form patterns, or using a conceptually describable language. Furthermore, as abstraction progresses across hierarchical levels, the General Code Converter could theoretically function as a universal “conversion engine” capable of handling any architecture or language. Music, sound, images, video, words, symbols, mathematical systems, academic theories, resistance values, current values, physical theories, social phenomena, celestial movements, natural phenomena, quantitatively describable information, smells, sensations, emotions, instincts—all seem quantifiable. Ideally, it should process everything that can be coded. Processing everything is impossible, but limiting the scope could make it feasible. A Turing machine has an infinitely long tape and infinite processing time. Human developers are necessary. Ultimately, humans feed the computer, but a terrifying device capable of replacing humans might emerge. Devices connecting to the brain already exist and are under further research. Biological computers... Scary, scary. There are ethical issues. In terms of intelligence, computers will likely surpass individuals eventually, but computers are ultimately machines (tools) and must not become masters of humans. Computers lack consciousness or life (though consciousness and life might be the same thing—we don't know yet), while humans possess imagination and creativity (though computers may acquire these too). If they compete, it seems like an endless meta-meta competition between computers and humans would ensue. Tools should be used. Humans must not become tools.
+
+As AI advances, it might eventually handle automated testing and debugging of massive and/or complex programs.
+
+Will humans become design specialists?!
+
+Also,
+
+#### Solving the Incompleteness Theorem
+
+Applying the Incompleteness Theorem to computers means they can't prove their own completeness, so human evaluation becomes necessary? It would be good to have two axiom systems: one for processing and one for evaluation. Systems that are consistently finite, extremely simple, or non-contradictory and non-recursively enumerable are unaffected by the Incompleteness Theorem. Therefore, the evaluation system could be finite, extremely simple, or non-contradictory and non-recursively enumerable. Physical classical computers have finite memory and time, but theoretically, infinity can be achieved—or rather, since the Turing machine is the prototype, it is theoretically infinite. Extremely simple examples of infinity include (while 1 {}), values added infinitely in an infinite loop, or ideal but real-time endless input. Without infinity, errors can be detected. Such systems are likely what we call simple. This resolves the incompleteness theorem. I haven't proven it logically, but with a different axiomatic system, self-contradictions can be evaluated. Russell simplified it. That's sufficient. Ultimately, human evaluation isn't needed for an automatic debugger (this is currently the hypothesis that fully automated debugging by computers is possible). However, another devilishly clever person like Kurt Gödel might emerge, invent a new theory, and render it unsolvable again. If a second axiom system is complete and fails to satisfy even one of the three conditions mentioned earlier, it risks being overturned by the incompleteness theorem. This seems odd—I thought the incompleteness theorem could be resolved. A logical proof resolving the incompleteness theorem already exists and is taught in universities. Thank you, logicians, for teaching us.
+
+ChatGPT Output
+
+“Please explain the negation of the incompleteness theorem.”
+
+"3. Proofs from Outside the Axiom System
+
+The incompleteness theorem demonstrates that “there exist propositions that cannot be proven within a given axiomatic system.” However, introducing another system (such as a higher-level system) may allow one to prove consistency. Yet, since this is not a “proof from within,” it cannot be called a ‘refutation’ of the incompleteness theorem."
+
+It can't be called a “refutation,” but can it be called a solution?
+
+April Fools' Day
+
+This verse sings of lies
+
+Kotaro
+
+#### Comment
+
+In another 20 years, personal quantum computers will become practical, and children will play with quantum computers too. Classical computers and quantum computers have different strengths, so we'll likely still need both for a while.
+
+My writing might be a bit off.
+
+I got too abstract. My conversation partner for this article was ChatGPT.
+
+Sorry for sounding so high and mighty.
+
+Translated with DeepL.com (free version)
