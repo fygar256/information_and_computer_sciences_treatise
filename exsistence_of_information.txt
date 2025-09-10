@@ -1,0 +1,132 @@
+---
+title: The Existence of Information. A Small Computer Simulation Model
+tags: Information Theory, Linux Terminal, Python3, Information Philosophy
+author: fygar256
+slide: false
+---
+
+The Existence of Information.
+
+Humans are born ignorant, and as they grow, they gain and lose information.
+
+This program simulates the moment when a newborn human acquires information for the first time.
+
+It's the information version of existentialism.
+
+I know, I'm writing this in a very arrogant way, but all it does is randomly select one of two values ​​and assign it to a variable called self.
+
+Written in Python. Run it with `./io.py`.
+
+It uses my own truerand module.
+
+https://qiita.com/fygar256/items/657719d5670f4534401f
+
+```io.py
+#!/usr/bin/python3
+import truerand
+def main(): 
+self=None 
+print(f"information source is /dev/random") 
+print("self will get information") 
+print(f"state of no information self={self}") 
+print("self don't know anything.") 
+i=truerand.rand(1)%2 
+print(f"information source is {i}") 
+self=i 
+print(f"self has been given information") 
+print(f"now, self got information self={self}")
+
+if __name__=="__main__": 
+main() 
+exit(0)
+````
+
+Execution result
+
+````
+$io.py
+information source is /dev/random
+self will get information
+state of no information self=None
+self doesn't know anything.
+information source is 1
+self has been given information
+now, self got information self=1
+$
+```
+
+From this, we can say that the assumption that there is a 50/50% chance that the person coming is a programmer when there is absolutely no information is incorrect. This is because in this program, the probability of determining i is external to self.
+This is objective objectivity. Information objectivity.
+
+True random numbers and completely random numbers can be treated as the same thing, but since true random numbers are not completely random, the probability of determining i will not be exactly 1/2, 1/2. True random numbers are random numbers from environmental noise pooled by /dev/random/, so their values ​​are, strictly speaking, affected by the environment in which the hardware is located. Since they are high-quality random numbers, they can be treated as completely random.
+
+Apparently, there was a theory like this in information philosophy.
+
+Existentialism, simply put, is "different."
+
+I don't think existentialism is a very good thing, but I thought this might be true, so I included it.
+
+Existentialism and existential thought are different. I'm an essentialist, and I believe the essence of everything is important. Sartre is wrong.
+
+Death, the opposite of birth, is achieved by assigning None to self. Resurrection is achieved by assigning information to self again.
+
+I made this with the theme of death and resurrection.
+
+```dr.py
+#!/usr/bin/python3
+import time
+def main(): 
+self=1 
+print("self is living but about to die.\n") 
+print(f"state of information self={self}") 
+print("for a while self living.") 
+time.sleep(3) 
+print("") 
+self=None 
+print(f"self has died. state of information self={self}") 
+print("for a while self is dead.") 
+print("self will revive.\n") 
+time.sleep(3) 
+self=1 
+print(f"self revived. state of information self={self}") 
+print("end")
+
+if __name__=="__main__": 
+main() 
+exit(0)
+````
+
+Execution result
+
+````
+$ dr.py
+self is living but about to die.
+
+state of information self=1
+for a while self living.
+
+self has died. state of information self=None
+for a while self is dead.
+self will revive.
+
+self revived. state of information self=1
+end
+
+```
+Just kidding.
+
+The Internet also has externalities of information. Even if you look at the Internet as a whole, you can see that there is other information out there, and the Internet is not everything. The Internet as a whole is supposedly an open system, but if you take a single website, it can be said to be a closed system, and there are suffocating aspects.
+
+In general, externalities of information exist, and the total amount of information in an open system is infinite.
+
+Yukineko and I don't know anything, Kotaro
+
+In classical probability theory, the correct assumption is that the probability of landing heads and tails in a single coin toss is equal, 1/2.
+
+Multiple Choice:
+
+In a place with no information, limited range, one winning option, one huge failure, and n options, it's better not to try. The probability of winning is 1/n, and the probability of a huge failure is 1/n. A huge failure is irreversible.
+
+If there's a chance of a huge loss, it's better not to participate in the game. That's why gamblers are foolish.
+
+The above is just a complicated explanation of a simple thing.
