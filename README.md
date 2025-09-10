@@ -9,3 +9,5 @@ st.pertersburg_paradox: simulation and consideration of st.petersburg paradox.
 completion for classical computing and solution of incompleteness theorem: General Code Converter and solution of incompleteness theorem.
 
 truerand: true random number generator and the consideration perfect random number and true random number and library of TRNG.
+
+exsistence_of_information: simulation and a paper of exsistence of information.
