@@ -11,7 +11,9 @@ Here, we assume that π is a perfect random number sequence.
 
 This program generates π, decodes it into characters, and extracts the information contained in π.
 
-The decoding method used in this program involves using the string “i=” 0123456789.,abcdefghijklmnopqrstuvwxyz", dividing it into two-digit decimal numbers, dividing by 100, multiplying by the length of i, and substituting it into i.
+The decoding method used in this program involves using the string “i=” 0123456789.,abcdefghijklmnopqrstuvwxyz", dividing it into two-digit decimal numbers, dividing by 100, 
+
+multiplying by the length of i, and substituting it into i.
 
 The information that can be extracted varies depending on the decoding method. Since π is a high-quality random number sequence, most of it is useless information and not very practical.  
 
@@ -44,7 +46,9 @@ while(True):
 ```
  
 
-With the Gauss-Legendre method used in this program, as long as there is enough time, the value of π can be extracted, allowing infinite digits of π to be obtained from finite memory. However, the time given to humanity is finite. It would be interesting to assume infinity.
+With the Gauss-Legendre method used in this program, as long as there is enough time, the value of π can be extracted, allowing infinite digits of π to be obtained from finite memory. 
+
+However, the time given to humanity is finite. It would be interesting to assume infinity.
 
 Next, we will attempt to extract arbitrary information from the environmental noise of /dev/random.
 
@@ -52,7 +56,9 @@ The random numbers that can be extracted from the environmental noise of /dev/ra
 
 The difference between perfect random numbers and true random numbers is as follows.
 
-| There are two types of random numbers that can be used by computers: pseudo-random numbers with a cycle and true random numbers obtained from a TRNG. There is also something called “perfect random numbers,” which can only be handled probabilistically. In other words, perfect random numbers exist only in the realm of ideas.
+| There are two types of random numbers that can be used by computers: pseudo-random numbers with a cycle and true random numbers obtained from a TRNG. 
+
+There is also something called “perfect random numbers,” which can only be handled probabilistically. In other words, perfect random numbers exist only in the realm of ideas.
 
 |
 
@@ -60,11 +66,14 @@ The difference between perfect random numbers and true random numbers is as foll
 
 |
 
-| • True random numbers are inherently unpredictable and truly disordered random numbers. They are contrasted with pseudo-random numbers generated arithmetically by computers. Physical random numbers that utilize quantum behavior, such as the decay of radioactive elements, are known. True random numbers. - Shogakukan - Digital Daijisen.  
+| • True random numbers are inherently unpredictable and truly disordered random numbers. They are contrasted with pseudo-random numbers generated arithmetically by computers. 
+
+| Physical random numbers that utilize quantum behavior, such as the decay of radioactive elements, are known. True random numbers. - Shogakukan - Digital Daijisen.  
 
 |  
 
-| • Perfect random numbers refer to a sequence of numbers generated in a completely random order and are also called ideal random numbers. It can only be handled probabilistically. - Search Labs | AI-based.
+| • Perfect random numbers refer to a sequence of numbers generated in a completely random order and are also called ideal random numbers. It can only be handled probabilistically. 
+| - Search Labs | AI-based.
 
 |
 
@@ -72,21 +81,31 @@ The difference between perfect random numbers and true random numbers is as foll
 
 |
 
-|Perfect random numbers may be difficult or impossible to create in the real world due to Jung's synchronicity (strange coincidences beyond causality) and the fact that the EPR paradox has become EPR correlation. Whether a true random number is a perfect random number or not has two possible answers: yes or no.  
+|Perfect random numbers may be difficult or impossible to create in the real world due to Jung's synchronicity (strange coincidences 
+
+| beyond causality) and the fact that the EPR paradox has become EPR correlation. Whether a true random number is a perfect random number or not has two possible answers: yes or no.  
 
 The phone number of the person you like is also included in the perfect random number sequence.  
 
-Since any information can be extracted from a perfect random number using the decoding method below, simply having the program below means you have a program that can extract the phone number of the person you like.  
+Since any information can be extracted from a perfect random number using the decoding method below, simply having the program below means you have a program that can extract 
+
+the phone number of the person you like.  
 
 However, since it is unclear which part of the random number sequence contains the phone number, you cannot say that you know the phone number of the person you like.
 
-If the number of trials is finite, there is a possibility that the phone number of the person you like is not included, so in that case, you cannot say that you have the phone number of the person you like.
+If the number of trials is finite, there is a possibility that the phone number of the person you like is not included, so in that case, 
 
-A completely random number sequence is mostly useless information and not very practical, but if you continue it infinitely, the desired number sequence will probably appear, so be patient and wait. However, the Earth will probably be destroyed before that happens.
+you cannot say that you have the phone number of the person you like.
+
+A completely random number sequence is mostly useless information and not very practical, but if you continue it infinitely, the desired number sequence will probably appear, 
+
+so be patient and wait. However, the Earth will probably be destroyed before that happens.
 
 Knowing everything, the stove cat, Tomiyasu Fūsei
 
-The phone number of the person you like can be found by asking the stove cat, but since cats cannot speak numbers, decoding cat language is necessary. A completely random number sequence is the stove cat.
+The phone number of the person you like can be found by asking the stove cat, but since cats cannot speak numbers, decoding cat language is necessary. 
+
+A completely random number sequence is the stove cat.
 
 This is what we might call the inherent nature of information.
 
@@ -117,7 +136,9 @@ if __name__=='__main__':
 
 Next, I tried to guess the three-digit number for the medicine cabinet lock.
 
-The amount of information contained in an event that occurs with probability p is -log₂ p, so the amount of information contained in the answer to the safe lock quiz, which has a probability of 1/1000, is -log₂ 1/1000 = 3log₂ 10 = 6.907755279.
+The amount of information contained in an event that occurs with probability p is -log₂ p, so the amount of information contained in the answer to the safe lock quiz, which has a probability of 1/1000,
+
+is -log₂ 1/1000 = 3log₂ 10 = 6.907755279.
 
 If an event with probability 0 occurs, the information content is infinite, and if an event with probability 1 occurs, the information content is 0.
 
