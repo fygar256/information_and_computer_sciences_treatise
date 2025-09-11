@@ -55,10 +55,17 @@ now, self got information self=1
 $
 ```
 
-From this, we can say that the assumption that there is a 50/50% chance that the person coming is a programmer when there is absolutely no information is incorrect. This is because in this program, the probability of determining i is external to self.
+From this, we can say that the assumption that there is a 50/50% chance that the person coming is a programmer when there is absolutely no information is incorrect. 
+
+This is because in this program, the probability of determining i is external to self.
+
 This is objective objectivity. Information objectivity.
 
-True random numbers and completely random numbers can be treated as the same thing, but since true random numbers are not completely random, the probability of determining i will not be exactly 1/2, 1/2. True random numbers are random numbers from environmental noise pooled by /dev/random/, so their values ​​are, strictly speaking, affected by the environment in which the hardware is located. Since they are high-quality random numbers, they can be treated as completely random.
+True random numbers and completely random numbers can be treated as the same thing, but since true random numbers are not completely random, the probability of determining i will not be exactly 1/2,1/2. 
+
+True random numbers are random numbers from environmental noise pooled by /dev/random/, so their values ​​are, strictly speaking, affected by the environment in which the hardware is located. 
+
+Since they are high-quality random numbers, they can be treated as completely random.
 
 Apparently, there was a theory like this in information philosophy.
 
@@ -115,7 +122,9 @@ end
 ```
 Just kidding.
 
-The Internet also has externalities of information. Even if you look at the Internet as a whole, you can see that there is other information out there, and the Internet is not everything. The Internet as a whole is supposedly an open system, but if you take a single website, it can be said to be a closed system, and there are suffocating aspects.
+The Internet also has externalities of information. Even if you look at the Internet as a whole, you can see that there is other information out there, and the Internet is not everything. 
+
+The Internet as a whole is supposedly an open system, but if you take a single website, it can be said to be a closed system, and there are suffocating aspects.
 
 In general, externalities of information exist, and the total amount of information in an open system is infinite.
 
@@ -125,7 +134,9 @@ In classical probability theory, the correct assumption is that the probability 
 
 Multiple Choice:
 
-In a place with no information, limited range, one winning option, one huge failure, and n options, it's better not to try. The probability of winning is 1/n, and the probability of a huge failure is 1/n. A huge failure is irreversible.
+In a place with no information, limited range, one winning option, one huge failure, and n options, it's better not to try. 
+
+The probability of winning is 1/n, and the probability of a huge failure is 1/n. A huge failure is irreversible.
 
 If there's a chance of a huge loss, it's better not to participate in the game. That's why gamblers are foolish.
 
