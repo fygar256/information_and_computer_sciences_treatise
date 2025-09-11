@@ -19,7 +19,8 @@ Written in Python. Run it with `./io.py`.
 
 It uses my own truerand module.
 
-https://qiita.com/fygar256/items/657719d5670f4534401f
+https://github.com/fygar256/true_random_number_generator
+
 
 ```io.py
 #!/usr/bin/python3
