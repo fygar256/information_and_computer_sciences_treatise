@@ -112,7 +112,7 @@ self is living but about to die.
 state of information self=1
 for a while self living.
 
-self has died. state of information self=None
+self has died. state of information self is unassigned.
 for a while self is dead.
 self will revive.
 
