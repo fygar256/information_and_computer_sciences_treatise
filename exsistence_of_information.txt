@@ -23,22 +23,22 @@ https://qiita.com/fygar256/items/657719d5670f4534401f
 
 ```io.py
 #!/usr/bin/python3
-import truerand
+    import truerand
 def main(): 
-self=None 
-print(f"information source is /dev/random") 
-print("self will get information") 
-print(f"state of no information self={self}") 
-print("self don't know anything.") 
-i=truerand.rand(1)%2 
-print(f"information source is {i}") 
-self=i 
-print(f"self has been given information") 
-print(f"now, self got information self={self}")
+    self=None 
+    print(f"information source is /dev/random") 
+    print("self will get information") 
+    print(f"state of no information self={self}") 
+    print("self don't know anything.") 
+    i=truerand.rand(1)%2 
+    print(f"information source is {i}") 
+    self=i 
+    print(f"self has been given information") 
+    print(f"now, self got information self={self}")
 
 if __name__=="__main__": 
-main() 
-exit(0)
+    main() 
+    exit(0)
 ````
 
 Execution result
@@ -83,24 +83,24 @@ I made this with the theme of death and resurrection.
 #!/usr/bin/python3
 import time
 def main(): 
-self=1 
-print("self is living but about to die.\n") 
-print(f"state of information self={self}") 
-print("for a while self living.") 
-time.sleep(3) 
-print("") 
-del self
-print(f"self has died. state of information self is unassigned.") 
-print("for a while self is dead.") 
-print("self will revive.\n") 
-time.sleep(3) 
-self=1 
-print(f"self revived. state of information self={self}") 
-print("end")
+    self=1 
+    print("self is living but about to die.\n") 
+    print(f"state of information self={self}") 
+    print("for a while self living.") 
+    time.sleep(3) 
+    print("") 
+    del self
+    print(f"self has died. state of information self is unassigned.") 
+    print("for a while self is dead.") 
+    print("self will revive.\n") 
+    time.sleep(3) 
+    self=1 
+    print(f"self revived. state of information self={self}") 
+    print("end")
 
 if __name__=="__main__": 
-main() 
-exit(0)
+    main() 
+    exit(0)
 ````
 
 Execution result
