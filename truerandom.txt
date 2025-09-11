@@ -55,23 +55,23 @@ import binascii
 # in : n bytes long
 # out: n bytes of RAND_MAX
 def rand_max(n):
-v=0
-for i in range (0,n):
-v=v*256+0xff
-return(v)
+    v=0
+    for i in range (0,n):
+        v=v*256+0xff
+    return(v)
 
 # Function that returns n bytes of true random numbers
 # parameter : n bytes long
 # return : n bytes of positive integer random numbers
 def rand(n):
-f=open("/dev/random",'rb') # Open /dev/random
-randomdata=f.read(n) # Read n bytes
-f.close() # Close /dev/random
-randomhex=binascii.hexlify(randomdata) #Convert to hexadecimal string
+    f=open("/dev/random",'rb') # Open /dev/random
+    randomdata=f.read(n) # Read n bytes
+    f.close() # Close /dev/random
+    randomhex=binascii.hexlify(randomdata) #Convert to hexadecimal string
 
-randomint=int(randomhex,16) #Convert to integer
+    randomint=int(randomhex,16) #Convert to integer
 
-return(randomint)
+    return(randomint)
 
 #
 # Function that returns a real random number in [0,1) with n byte precision
@@ -86,14 +86,14 @@ return(randomint)
 #
 def rand_f(n):
 
-return(rand(n)/rand_max(n))
+    return(rand(n)/rand_max(n))
 
 #
 # Function that returns a random number between 0 and k-1
 
 # parameters: n bytes long
 
-k integer
+# k integer
 
 # return: Integer random number between 0 and (k-1)
 
@@ -103,26 +103,26 @@ k integer
 #
 def randomint(k,n):
 
-return(rand(n)%k)
+    return(rand(n)%k)
 
 if __name__=="__main__":
 
-b=8
+    b=8
 
-times=20
-print(f"{b*8}bit positive true random integer")
-for _ in range(times):
-print(rand(b),end=" ")
+    times=20
+    print(f"{b*8}bit positive true random integer")
+    for _ in range(times):
+        print(rand(b),end=" ")
 
-print("")
-print("Real random numbers in the range [0,1]")
-for _ in range(times):
-print(rand_f(b),end=" ")
-print("")
-print("Integer random numbers 0 to 99")
-for _ in range(times):
-print(randomint(100,b),end=" ")
-print("")
+    print("")
+    print("Real random numbers in the range [0,1]")
+    for _ in range(times):
+        print(rand_f(b),end=" ")
+    print("")
+    print("Integer random numbers 0 to 99")
+    for _ in range(times):
+        print(randomint(100,b),end=" ")
+    print("")
 
 ```
 
