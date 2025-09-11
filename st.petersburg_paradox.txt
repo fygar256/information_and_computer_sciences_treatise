@@ -6,7 +6,9 @@ slide: false
 ---
 The St. Petersburg Paradox
 
-In a game where you flip a coin and continue until it lands on heads, if the number of flips is N, you will receive a prize of 2^(N-1) yen. If you calculate the expected value, it diverges to infinity.
+In a game where you flip a coin and continue until it lands on heads, if the number of flips is N, you will receive a prize of 2^(N-1) yen. 
+
+If you calculate the expected value, it diverges to infinity.
 
 W=Σk=1,∞(1/2^k・2^(k-1))=∞
 
@@ -30,7 +32,9 @@ William Feller also calculated this by sampling, and the correct answer is that 
 
 If the number of games is finite, the expected value converges to a much smaller value.
 
-Daniel Bernoulli presented this paradox and found a solution in the form of utility by taking the logarithm of the prize money, but saying that the value of money decreases as the prize money increases introduces human subjectivity, so it is not an objective answer.
+Daniel Bernoulli presented this paradox and found a solution in the form of utility by taking the logarithm of the prize money, 
+
+but saying that the value of money decreases as the prize money increases introduces human subjectivity, so it is not an objective answer.
 
 Below is a program to calculate the average value when Method 1 and the simulation are repeated n times.
 
