@@ -1,4 +1,4 @@
-# completion-for_classical_computing_and_solution_to_incompleteness_theorem
+# completion_of_classical_computing_and_solution_to_incompleteness_theorem
 
 
 The Completion of Classical Computer Processing
