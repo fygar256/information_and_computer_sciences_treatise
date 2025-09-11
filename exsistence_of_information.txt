@@ -89,8 +89,8 @@ print(f"state of information self={self}")
 print("for a while self living.") 
 time.sleep(3) 
 print("") 
-self=None 
-print(f"self has died. state of information self={self}") 
+del self
+print(f"self has died. state of information self is unassigned.") 
 print("for a while self is dead.") 
 print("self will revive.\n") 
 time.sleep(3) 
