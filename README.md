@@ -1,4 +1,4 @@
-Here are the information and computer science treatises.
+Here are the information and computer science papers.
 
 info_pi: trial to extract any information from pi and to extract the phone number who you think to love from perfect random number.
 
